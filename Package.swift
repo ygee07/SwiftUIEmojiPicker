@@ -6,7 +6,7 @@ let package = Package(
     name: "EmojiPalette",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v17), .macOS(.v14)
+        .iOS("17.0"), .macOS("14.0")
     ],
     products: [
         .library(
